@@ -1,0 +1,300 @@
+#A1{background-color: #F0F0E9; padding: 0px;}
+#A1-1, #A1-2{float: left;}
+#A1-3{
+    float: right;
+}
+/* SHOSHAL MEDIA AND CONTACTS >> */
+#lab01i,  #lab02i{
+    background-color: #F0F0E9;
+    font-size: 12px;  
+    text-align: center;
+    font-weight:100;      
+}
+#lab01i a, #lab02i a{
+    text-decoration: none; 
+    color: #8d8d8d;
+    padding: 0 0 0 5px;
+}
+#lab01i a:hover, #lab01i a:hover i, #lab02i a:hover, #lab02i a:hover i{
+    color:#3A6E9B;     
+}  
+.navbar-nav li a {
+    height: 25px;
+    width: 25px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.navbar-nav li:nth-child(1) :hover{background-color:#4867AA;}
+.navbar-nav li:nth-child(2) :hover{background-color:#DC4A38;}
+.navbar-nav li:nth-child(3) :hover{background-color:#32CCFE;}
+.navbar-nav li:nth-child(4) :hover{background-color:#CB2027;}
+.navbar-nav li:nth-child(5) :hover{background-color:#0077B5;}
+.navbar-nav li:nth-child(6) :hover{background-color:#000000;}
+.navbar-nav li:nth-child(7) :hover{background-color:#F26798;}
+.navbar-nav li:nth-child(8) :hover{background-color:#FF9900;}
+.navbar-nav li:hover i{color: #ffffff;}
+/* << SHOSHAL MEDIA AND CONTACTS */
+
+
+
+
+#A2{background-color: #FFFFFF;padding: 0px;margin-top: 6px;}
+#A2-1, #A2-2, #A2-3{float: left;}
+
+/* LANGUAGE & CURRENCY >> */
+#btn01i{
+    /*background-color: #F0F0E9;*/
+    background-color: #FFFFFF;
+    border: 1px solid;
+    font-size: 13px;  
+    padding: 0px 4px 2px 4px;
+    min-width: 80px;
+    text-align: center;
+    margin: 4px 2px 2px 0;
+    color: #AFACAC;
+}
+#btn01i:focus{outline: none;}
+#btn01i i{color: #AFACAC;}
+#btn01i:hover, #btn01i:hover i, #btn01i:hover span{
+    color: #ffffff;
+    background-color:#3A6E9B;
+}
+.dropdown01 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content01 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom: 5px solid slateblue;
+}
+.dropdown-content01 a {
+    color: #8d8d8d;
+    padding: 5px ;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;  
+}
+.dropdown-content01 a:hover {background-color:#3A6E9B; color: #ffffff;}
+.dropdown-content01 a:hover  i{
+    background-color:#3A6E9B; 
+    color: #ffffff;
+}
+.dropdown01:hover .dropdown-content01 {
+    display: block;
+    z-index:999;
+}
+/* << LANGUAGE & CURRENCY */
+
+
+#btn02i{
+    background-color: #FFFFFF;
+    border: 0px;
+    font-size: 15px;  
+    padding: 1px 0 0 0;
+    min-width: 100px;
+    text-align: center;
+    margin: 2px 2px 2px 0;
+    color: #AFACAC;
+}
+#btn02i:focus{outline: none;}
+#btn02i i{color: #AFACAC;}
+#btn02i:hover, #btn02i:hover i, #btn02i:hover span{
+    color: #3A6E9B;
+}
+.dropdown02{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content02 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-bottom: 5px solid slateblue;
+}
+.dropdown-content02 a {  
+    color: #8d8d8d;
+    padding: 5px ;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;  
+}
+.dropdown-content02 a:hover {
+    background-color:#3A6E9B; 
+    color: #ffffff;
+}
+.dropdown-content02 a:hover  i{
+    background-color:#3A6E9B; 
+    color: #ffffff;
+}
+.dropdown02:hover .dropdown-content02 {display: block;z-index:999;}
+#lab03i, #lab04i, #lab05i, #lab06i{text-align: center;}
+#lab03i a, #lab04i a, #lab05i a, #lab06i a{
+    font-size: 15px;  
+    text-decoration: none; 
+    color: #AFACAC;
+    padding: 3px 0 0 15px;
+    margin: 2px 2px 2px 0;
+}
+#lab03i a i, #lab04i a i, #lab05i a i, #lab06i a i{
+    color: #AFACAC;
+}
+#lab03i a:hover, #lab03i a:hover i, #lab04i a:hover, #lab04i a:hover i, #lab05i a:hover, #lab05i a:hover i, #lab06i a:hover, #lab06i a:hover i{
+    color:#3A6E9B;     
+} 
+
+
+
+#A3{
+    background-color: #FFFFFF;
+    padding: 0px;
+}
+#bar01i{margin-top:6px }
+.bar01c{
+    border-top:1px solid #e0dfdf;
+    margin-bottom: 3px;
+}
+.bar02c{border-top:4px solid #e0dfdf;}
+
+#bar03i{margin-top:6px }
+.bar03c{border-top:4px solid #e0dfdf;}
+.bar04c{
+    border-top:1px solid #e0dfdf;
+    margin-top: 3px;
+}
+
+#A4-1, #A4-2, #A4-3, #A4-2-1, #A4-2-2, #A4-2-3, #A4-3-1, #A4-3-2, #A4-3-3{float: left;}
+#A4-1{
+    width: 200px;
+}
+#A4-2{
+    margin-top: 22px;
+}
+#A4-3{
+    max-width: 328px;
+}
+#A4-2-1{
+    /*background-color: #4867AA;*/
+    text-align: center;
+    border: 2px solid #CBCBCB;
+    padding: 0px 0 0px 0px;  
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#A4-2-2{
+    text-align: center;
+    border-top: 2px solid #CBCBCB;
+    border-bottom: 2px solid #CBCBCB;
+    padding: 9px 0 8px 0px;  
+}
+/*SEARCH BAR EKA >>*/
+/*SEARCH BOX EKA >>*/
+#seb01i{
+    font-size: 13px;
+    border: 0 none;
+    padding-left: 15px;
+    width:449px;
+    height: 39px;
+}
+#seb01i:focus, #sel01i:focus, #sub01i:focus{
+    outline: none;
+}
+/*SEARCH BOX EKA <<*/
+/*ALL CATOGARY >>*/
+#sel01i{
+    font-size: 13px;
+    border:0px;  
+    max-width:138px;
+    min-width:138px;
+}
+/*ALL CATOGARY <<*/
+/*SEARCH BUTTON EKA >>*/
+#sub01i{
+    border: 0 none;
+}
+#sub01i i{
+    color: #ffffff;
+    background-color: #AFACAC;
+    border: 2px solid  #AFACAC;
+    border-bottom: 3px solid   #AFACAC;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 3px;
+    padding: 5px 11px 5px 11px;
+}
+/*SEARCH BUTTON EKA <<*/
+/*SEARCH BAR EKA <<*/
+
+/*CART EKA >>*/
+#A4-3-1 i,#A4-3-1 label, #A4-3-2 i{
+    color: #000000;
+}
+#A4-3-1 span, #A4-3-2 span{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#A4-3-3 button{
+    background-color: #AFACAC;
+    color: #FFFFFF;
+    /*padding: 12px 5px 12px 5px;*/
+    padding: 8px 5px 8px 5px;
+    border: none;
+    margin-left: 5px;
+}
+#A4-3-3 button i{
+    background-color: #AFACAC;
+    color: #FFFFFF;
+}
+
+#A4-3-3 button:hover{
+    background-color: #0077B5;
+}
+#A4-3-3 button:hover i{
+    background-color: #0077B5;
+}
+
+#A4-3-3 button:focus{
+    outline: none;
+}
+#A4-3-1{
+    margin-left: 5px;
+    margin-top: 24px;
+    padding: 3px 5px 3px 5px;
+    border-right: 1px solid #CBCBCB;
+}
+
+#A4-3-2{
+    margin-top: 24px;
+    padding: 5px 5px 5px 5px;
+    border-right: 1px solid #CBCBCB;
+}
+#A4-3-3{
+    /*margin-top: 22px;*/
+    margin-top: 25px;
+}
+/*<< CART EKA*/
+
+
+
+
+/*--------------------SLIDER START----------------------------------------------------------------------------------------------------*/	
+#A7{
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+}
+#if01i{
+    width:1180px;
+    height: 403px;
+
+}
+/*--------------------SLIDET END----------------------------------------------------------------------------------------------------*/	

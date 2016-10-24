@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 4, 2016, 12:53:34 AM
+    Author     : Kasun Kalhara
+*/
+
+*{
+    margin:0px;
+    padding:0px;
+    
+/*    font-size: 14px;
+    font-family: '', sans-serif;*/
+
+    font-family: "Oswald";
+  
+
+    /*color: #c5c3c3;*/
+    /*color: #373736;*/
+    color: #8d8d8d;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#product_name{
+     
+}

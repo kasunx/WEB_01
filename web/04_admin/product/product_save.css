@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2016, 8:28:36 PM
+    Author     : Kasun Kalhara
+*/
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color:red;
+    /*background-color: #00bf6f;*/
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 45%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+body{
+    width: 1161px;
+    /*border: 1px solid black;*/
+}
+
+#tab01i{
+    /*width: 1130px;*/
+    max-width: 1144px;
+}
+
+.w0{
+    width: 100%
+}
+.w1{
+    width: 99%
+}
+.w2{
+    width: 92%
+}
+.w4{
+    width: 5%
+}
+.w5{
+    width: 41%
+}
+.w6{
+    width: 30%
+}
+
+.war{
+    width: 35px;
+}
+
+#progressBox{
+    /*width: 500px;*/
+    height: auto;
+}
+#fileName{
+    width: 304px
+}
+#upFile{
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.upload{
+    opacity: 0;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.myimgs{
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#myimg{
+    /*float: left;*/
+}
+
+#tab01i tr td{
+    padding-top: 8px; 
+}
+
+#tab02i label:hover {
+    color: #f25454;
+}

@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 7, 2016, 11:01:11 AM
+    Author     : Kasun Kalhara
+*/
+
+
+/*MENU BAR EKA >>*/
+.dropdown-bar03{
+    list-style-type: none;
+}
+.dropdown-item03{   
+    /*border-top: 1px solid  #AFACAC;*/
+    /*    border-left: 1px solid #ffffff;
+        border-right: 1px solid  #ffffff;*/
+    /*border-left: 2px solid  #AFACAC;*/
+    text-align: left;
+    float: left;
+}
+.dropdown-item03:hover {
+    border-top: 1px solid  #0077B5;
+}
+.dropdown-item03:hover .sub-content03{
+    /*border: 1px solid #0077B5;*/
+}
+.dropdown-item03:hover .dropdown-button03{
+    color:#0077B5;
+    text-decoration: none;
+
+}
+.dropdown-item03:hover .dropdown-icon03{
+    color:#0077B5;
+}
+.dropdown-button03{
+    color: #AFACAC;
+    display: block;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.dropdown-content03{
+    position: absolute;
+    background-color: #F9F9F9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    max-width: 800px;
+    border-bottom: 5px solid slateblue;
+    /*float: left;*/
+
+}
+.active {
+    background-color: #000000;
+}
+
+
+
+
+.dropdown-item03:hover .sub-content03{
+    /*display: inline-block;*/
+    
+     /*display: inline-block;*/
+     /*display: inline;*/
+     display: block;
+}
+
+.sub-content03{
+    float: left;
+/*    position: relative;
+bottom: 0px;*/
+    display: none;
+    /*position: absolute;*/
+    padding: 10px;
+
+}
+
+.sub-title03{
+    color: #000000;
+    text-transform: capitalize;
+}
+.sub-list03{
+    list-style-type: none;
+}
+.sub-list03 li a{
+    color: #AFACAC;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.sub-list03 li a:hover{
+    color: #0077B5;
+}

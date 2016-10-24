@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2016, 7:57:58 PM
+    Author     : Kasun Kalhara
+*/
+#A9-1,#A9-2{
+    float: left;
+}
+#A9-1{
+    border: 1px solid #e0dfdf;
+    width: 257px;
+
+}
+#lab07i{
+    font-size: 16px;
+    padding: 5px 75px 5px 74px;
+    background-color: #ffffff;
+    display: block;
+    /*border-bottom: 1px solid #e0dfdf;*/
+
+}
+#ul03i{
+    list-style-type: none;
+} 
+
+button.accordion01{
+    cursor: pointer;
+    padding: 8px 5px 8px 5px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background-color: #ffffff;
+    border:none;
+    border-top: 1px solid #3A6E9B;
+
+}
+
+
+
+button.accordion01.active, button.accordion01:hover {
+    background-color: #ffffff;
+}
+
+button.accordion01:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion01.active:after {
+    content: "\2796";
+}
+
+#btn01ii{
+    cursor: pointer;
+    padding: 8px 5px 8px 5px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background-color: #ffffff;
+    border:none;
+    border-top: 1px solid #3A6E9B;
+
+}
+#slider-range{
+    margin: 0 10px 0 10px;
+    /*border-bottom: 1px solid #3A6E9B;*/
+}
+
+
+div.panel01 {
+    /*padding: 0 18px;*/
+    background-color: #ffffff;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    padding : 0 0 0 20px;
+    border-bottom: 5px solid slateblue;
+}
+
+div.panel01.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+
+.chk01c{
+    border: 1px solid blue;
+}
+
